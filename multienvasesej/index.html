@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>multienvases</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,6 +33,7 @@
     <main>
         
         <br><br><br><br><br>
+        <!-- QUIENES SOMOS -->
         <div class="caja">
             <div class="orange-box"></div>
             
@@ -42,15 +44,15 @@
                     <p>Es una empresa familiar creada el año 2010, por un grupo de empresarios vinculados y conocedores del rubro agrícola, frutícola forestal y ganadero. 
                         Por esta razón nos hicimos proveedores de envases plásticos, bins, para los procesos productivos de estas áreas agrícolas, atendiendo clientes desde La Serena a Los Ángeles.</p></div>
                 <div class="img-bins-blanco">
-                    <img id="imagen-bins" src="media/imagen 36.png" alt="bins blanco" >
+                    <img id="imagen-bins" src="media/personas-que-trabajan-huerto-manzanas-recogiendo-frutas-colocandolas-canasta.jpg" alt="bins blanco" >
                 </div>
         </div>
-        
+        <!-- VISIÓN DE LA EMPRESA -->
         <div class="caja-2">
             <div class="img-bins-blanco">
-                <img id="imagen-bins" src="media/imagen 36.png" alt="bins blanco" >
+                <img id="imagen-bins-2" src="media/hombre-montando-caballo-blanco-traves-jardin-granadas.jpg" alt="bins blanco" >
             </div>
-            <div class="text-box">
+            <div class="text-box-2">
                 <h2><b>Visión</b></h2>
                 <br>
                 <p>Ser una pequeña, pero muy importante parte del eslabón productivo del sector alimento,
@@ -59,9 +61,23 @@
             <div class="orange-box">
          </div>
         </div>
-           
+         <!--ESTAMOS CONTIGO-->  
         <div class="carrusel-2">
             <h1>Estamos Contigo</h1>
+            <div class="text-box3">
+                <div class="carrusel-p">
+                    <p>Los bins son retirados por los clientes desde la planta de Multienvases ubicada en Paine altura km 43 Ruta 5 Sur,
+                       para llevarlos a los campos, para las labores de cosecha de diferentes tipos de frutas y hortalizas,
+                       luego se transportan a las plantas,</p>
+                </div>
+                <div class="carrusel-p">
+                    <p>dónde se almacenan y se van desocupando en la medida que se va realizando el proceso de frío,
+                       selección y calibrado hasta el embalaje y ahí vuelven a los campos a cosecha. Terminada la temporada cada cliente los devuelve a la Planta Multienvases Paine.
+                    </p>
+                </div>
+                
+            </div>
+            <br><br>
             <div class="slide">
                 <div class="slide-inner">
                     <input class="slide-open" type="radio" id="slide-1" 
@@ -98,27 +114,71 @@
                     </ol>
                 </div>
             </div>
-            <div class="text-box3">
-                <div class="carrusel-p">
-                    <p>Los bins son retirados por los clientes desde la planta de Multienvases ubicada en Paine altura km 43 Ruta 5 Sur,
-                       para llevarlos a los campos, para las labores de cosecha de diferentes tipos de frutas y hortalizas,
-                       luego se transportan a las plantas,</p>
+            
+        </div>
+        <div class="distancia"></div>
+        <!--CONTACTO-->
+        <div class="caja-contacto">
+            <div class="caja-formulario">
+                <div class="formulario">
+                    <div>
+                        <form id="contact" action="" method="post">
+                            <h2>CONTACTO</h2>
+                            <fieldset>
+                                <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Email" type="text" tabindex="2" required>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Asunto" type="text" tabindex="3" required>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Mensaje" type="text" tabindex="4" required>
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
-                <div class="carrusel-p">
-                    <p>dónde se almacenan y se van desocupando en la medida que se va realizando el proceso de frío,
-                       selección y calibrado hasta el embalaje y ahí vuelven a los campos a cosecha. Terminada la temporada cada cliente los devuelve a la Planta Multienvases Paine.
-                    </p>
+                <div id="boton-contact">
+                    <button name="Submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
                 </div>
-                
+            </div>
+        </div>
+        <!--FOOTER-->
+        <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="grid-col1">
+                    <img src="media/logomultienvases.png" alt="logo" id="logo-footer">
+                    <br>
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook-official"></i></a></li>
+                        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>   
+                      </ul>
+                </div>
+                <div class="grid-col2">
+                    <div class="direccion-footer">
+                        <h4>DIRECCIÓN</h4>
+                        <br>
+                        <p>Colinas de Paine, Parcela 3 Lote n°5 Paine-SANTIAGO</p>
+                    </div>
+                </div>
+                <div class="grid-col3">
+                    <h4>HORARIO DE ATENCIÓN</h4>
+                    <br>
+                    <p><b>Lunes a Viernes</b> de 09:30 a 19:00 hrs</p>
+                    <p><b>Sábado</b> de 12:00 a 18:00 hrs</p>
+                </div>
+                <div class="grid-col4">
+                    <h4>CONTACTO</h4>
+                    <br>
+                    <p>Fonos: 56-02 824 49 11</p>
+                    <p>Fax: 56-02 825 13 21</p>
+                </div>
             </div>
         </div>
 
-        <div class="caja-contacto"></div>
-        <div class="formulario">
-            <img id="formulario-contacto" src="media/Formulario Contacto.png" alt="formulario contacto">
-        </div>
-        <div class="footer">
-            <img id="footer" src="media/Footer.png" alt="footer">
         </div>
         </div>
     </main>
