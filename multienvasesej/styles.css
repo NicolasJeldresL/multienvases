@@ -866,14 +866,17 @@ iframe {
     align-items: center;
     background-color: #E08747;
     width: 100%;
-    height: 600px;
+    height: 800px;
 } 
 .caja-formulario{
-    display: block;
+    display:block;
     background-color: #29aafe;
     width: 100%;
     height: 500px;
-
+  
+}
+.orden-formulario{
+    display: block;
 }
 .formulario{
     display: block;
@@ -881,7 +884,6 @@ iframe {
     width: 60%;
     height: 400px;
     margin-left: 21%;
-    margin-top: auto;
     
 }
 
@@ -890,12 +892,12 @@ iframe {
     padding-right: 25px;
 }
   
-  #contact h2 {
+  #contact p {
     display: block;
     font-size: 30px;
-    font-weight: 300;
     margin-bottom: 50px;
-    
+    margin-top: none;
+    padding-top: 0;
   }
   
   fieldset {
