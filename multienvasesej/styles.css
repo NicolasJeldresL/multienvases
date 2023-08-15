@@ -457,9 +457,7 @@ nav {
      transition-delay: .5s;
 }
 /* fin equipo trabajo */
-/* CARRUSEL */
-
-
+/* ESTAMOS CONTIGO */
 .carrusel-2 h1 {
     display: flex;
     justify-content: center;
@@ -869,18 +867,13 @@ iframe {
     background-color: #E08747;
     width: 100%;
     height: 600px;
-
 } 
 .caja-formulario{
     display: block;
-    background-color: #E08747;
-
-} */
-#formulario-contacto{
-    margin-top: 200px;
-
+    background-color: #29aafe;
     width: 100%;
     height: 500px;
+
 }
 .formulario{
     display: block;
@@ -888,14 +881,14 @@ iframe {
     width: 60%;
     height: 400px;
     margin-left: 21%;
+    margin-top: auto;
     
 }
 
-#contact {
-    
-    padding: 25px;
-    
-  }
+#contact{
+    padding-left: 25px;
+    padding-right: 25px;
+}
   
   #contact h2 {
     display: block;
