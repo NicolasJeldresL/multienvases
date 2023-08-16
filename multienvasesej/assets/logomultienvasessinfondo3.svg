@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="293.7077mm"
+   height="89.283585mm"
+   viewBox="0 0 293.7077 89.283585"
+   version="1.1"
+   id="svg4517"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4514">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4379">
+      <path
+         d="M 0,276 H 841 V 595 H 0 Z"
+         id="path4377" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4369">
+      <path
+         d="M 0,0 H 841 V 284 H 0 Z"
+         id="path4367" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-0.26120736,-98.261193)"
+     style="display:inline">
+    <g
+       id="g7523"
+       transform="translate(9.6044776,204.64925)">
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:500;font-size:26.5527px;font-family:'Oswald Medium';-inkscape-font-specification:Oswald-Medium;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4251"
+         x="58.448162"
+         y="-49.761269"><tspan
+           x="58.448162 76.583633 102.39281 112.50938 123.92703 131.22902 142.59355 157.06477 169.96936 183.72362 196.84064 208.20518"
+           y="-49.761269"
+           id="tspan4249"
+           style="stroke-width:0.352778">M LTIENVASES</tspan></text>
+      <path
+         d="m 78.369766,-71.480273 v 21.639036 h 3.90278 v -1.951214 l 14.301254,-0.06738 v 2.027061 h 3.90243 V -71.472159 H 96.5738 v 4.875389 l -14.301254,0.06773 v -4.951236 z m 18.204034,8.200672 v 8.101189 l -14.301254,0.06773 v -8.101541 z"
+         style="fill:#e08747;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path4253" />
+    </g>
+    <g
+       id="g5434"
+       transform="translate(-16.717271,-139.48473)"
+       style="display:none">
+      <g
+         id="g4365"
+         clip-path="url(#clipPath4369)"
+         transform="matrix(0.35277777,0,0,0.35277777,15.671872,234.16055)">
+        <path
+           d="M -24.027,-17.367 H 863.008 V 283.246 H -24.027 Z"
+           style="fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4371" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:500;font-size:26.5527px;font-family:'Oswald Medium';-inkscape-font-specification:Oswald-Medium;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4387"
+         x="85.979774"
+         y="292.21109"><tspan
+           x="85.979774 104.11524 129.92445 140.04097 151.45863 158.76064 170.12514 184.59639 197.50099 211.25526 224.37227 235.73677"
+           y="292.21109"
+           id="tspan4385"
+           style="stroke-width:0.352778">M LTIENVASES</tspan></text>
+      <path
+         d="m 105.90184,270.49243 v 21.63798 h 3.90243 v -1.95122 l 14.30126,-0.0674 v 2.02848 h 3.90278 V 270.5009 h -3.90278 v 4.87539 l -14.30126,0.0674 v -4.95124 z m 18.20369,8.20067 v 8.10154 l -14.30126,0.0677 v -8.10154 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path4389" />
+    </g>
+    <g
+       id="g5798"
+       transform="translate(-400.43284,-3.6940298)"
+       style="display:none">
+      <g
+         id="g4373"
+         transform="matrix(0.35277777,0,0,0.35277777,399.11217,-8.1678043)">
+        <g
+           id="g4375"
+           clip-path="url(#clipPath4379)">
+          <path
+             d="M -30.563,276.133 H 860.914 V 619.692 H -30.563 Z"
+             style="fill:#e08747;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4381" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-variant:normal;font-weight:500;font-size:26.5527px;font-family:'Oswald Medium';-inkscape-font-specification:Oswald-Medium;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="text4393"
+         x="468.7041"
+         y="154.82559"><tspan
+           x="468.7041 486.83957 512.64874 522.76532 534.18298 541.48499 552.84949 567.32068 580.22528 593.97955 607.09662 618.46112"
+           y="154.82559"
+           id="tspan4391"
+           style="stroke-width:0.352778">M LTIENVASES</tspan></text>
+      <path
+         d="m 488.6253,133.10593 v 21.63939 h 3.90278 v -1.95121 l 14.30267,-0.0677 v 2.02706 h 3.90101 v -21.63798 h -3.90101 v 4.87433 l -14.30267,0.0674 v -4.95124 z m 18.20545,8.20209 v 8.10154 l -14.30267,0.0674 v -8.10154 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+         id="path4395" />
+    </g>
+  </g>
+</svg>

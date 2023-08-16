@@ -58,7 +58,9 @@ ul {list-style: none;}
 a{text-decoration: none;}
 
 /* header */
-
+.logo-multi{
+    width: 250px;
+}
 header {
     min-height: 100vh;
     width: 100%;
@@ -274,6 +276,7 @@ nav {
     justify-content: start;
     margin-left: 20px;
     margin-bottom: 200px;
+    margin-top: 100px;
 
     
 }
@@ -281,8 +284,16 @@ nav {
 .orange-box {
     height: 75vh;
     width: 6vh ;
-    background-color: #E08747;
-  
+    background-color: #E08747;  
+    left: -20px;
+    position: relative;
+}
+.orange-box-dos {
+    height: 75vh;
+    width: 6vh ;
+    background-color: #E08747;  
+    right: -50px;
+    position: relative;
 }
 .text-box{
     
@@ -848,17 +859,23 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 .ubicacion h2 {
-    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-bottom: 30px;
 }
 iframe {
     width: 70%;
     height: 600px;
+    
 }
 /* fin mapa */
 
 /*CONTACTO*/
+#contact h2{
+    margin-top: 0;
+}
 
 .caja-contacto{
     display:flex;
@@ -870,7 +887,7 @@ iframe {
 } 
 .caja-formulario{
     display:block;
-    background-color: #29aafe;
+    /* background-color: #29aafe; */
     width: 100%;
     height: 500px;
   
@@ -902,7 +919,7 @@ iframe {
   
   fieldset {
     border: medium none !important;
-    margin: 0 0 10px;
+    margin: 20px 0 10px;
     min-width: 100%;
     padding: 0;
     width: 100%;
@@ -952,7 +969,7 @@ iframe {
     color:#E08747;
     padding: 10px;
     margin-top: 1%;
-    margin-left: 42%;
+    margin-left: 40%;
     font-size: 15px;
   }
   
@@ -995,7 +1012,8 @@ iframe {
 
 .footer{
     height: 300px;
-    background-color: #A0A0A0;
+    background-color: var(--lightBlue);
+    /* background-color: #A0A0A0; */
 }
 .row{
     display: grid;
@@ -1026,14 +1044,16 @@ iframe {
 }
 
 #logo-footer{
-    width: auto;
+  width:  250px;
+  margin-bottom: 20px;
 }
+  
 
 .social-icons
 {
   padding-left:0;
   margin-bottom:0;
-  list-style:none
+  list-style:none;
 }
 .social-icons li
 {
@@ -1125,41 +1145,41 @@ iframe {
     .nav-links ul {
         padding: 50px 10px 0 0;
     }
-
+    
     .abrir-menu, .cerrar-menu {
         display: block;
     }
-
+    
     .abrir-menu {
         padding: auto;
-        right:5%;
+        /* right:5%; */
         transform: translate(-5%, 0%);
-        top: -40%;
+        top: -30%;
     }
-
+    
     .cerrar-menu {
         top: 5%;
     }
-
+    
     .boton-ver {
         display: flex;
         justify-content: center;
         
     }
-
+    
     #check:checked ~ .nav-links {
         right: 0;
         transition: all 0.4s ease-in-out;
     }  
-
+    
     ul {
         position: fixed;
     }
-
+    
     .nav-links ul li a:hover {
         color: var(--black);
     }
-
+    
     header p{
         padding-right: 30px;
     }
@@ -1169,7 +1189,7 @@ iframe {
         padding: 0px 10px;
         padding-left: 0;
     }
-
+    
     .dropbtn {
         /* display: flex;
         padding:5px; */
@@ -1179,6 +1199,92 @@ iframe {
     .rectangulo {
         display: none;
     }
+    .text-box3{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0px;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+    
+    .text-box3 p{
+        margin-top: 30px;
+        text-align: justify;
+        padding-left: 7%;
+        
+    }
+    .text-box-2 {
+        margin-top: -50px;
+        padding-bottom: 20px;
+    }
+    .text-box-2 p{
+        padding-top: 20px;
+    }
+
+    .caja {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-bottom: 200px;
+        margin-top: -200px;
+    }
+    
+    .caja-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .carrusel-2 {
+        margin-top: 400px;
+    }
+    
+    .orange-box {
+        height: 50vh;
+        width: 5vh ;
+        background-color: #E08747;  
+        transform: translate(0%, -70%);
+        left: 0;
+        position: absolute;
+    }
+    .orange-box-dos {
+        height: 50vh;
+        width: 5vh ;
+        background-color: #E08747;  
+        transform: translate(0%, 120%);
+        right: 0;
+        position: absolute;
+    }
+    
+    .text-box {
+        padding-bottom: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    /* ESTAMOS CONTIGO */
+
+    .slide {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 26px;
+    }
+
+    .slide-control {
+    top: 20%;
+    transform: translate(-50%, -50%); 
+    -webkit-transform: translate(0, 0);  
+    }
+
+    .slide-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc( 300px + 3em);
+    }
+    
     /* Nuestros-productos */
     .wrapper {
         padding: 0 40px;
@@ -1193,12 +1299,31 @@ iframe {
         width: 100%;
         margin: 20px;
     }
+    .formulario{
+        width: 80%;
+        margin-left: 10%
+    }
+
+    #contact h2{
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+    
+    .grid-col1{
+        grid-column: 2/3;
+        grid-row: 9;
+    }
+    #logo-footer{
+        width: auto;
+        width: 350px;
+    }
+   
 }
 
 @media (max-width: 550px) {
     .abrir-menu {
         padding: auto;
-        transform: translate(-10%, -50%);
+        transform: translate(-10%, -30%);
     }
     .rectangulo {
         display: none;
@@ -1210,6 +1335,9 @@ iframe {
     .caracteristicas h2{
         font-size: 2.5rem;
     }
+    .carrusel-2 h2 {
+        font-size: 2.8rem;
+    }
     .container-desc {
         padding: 0px;
         margin: 30px 25px;
@@ -1218,6 +1346,34 @@ iframe {
     .carousel img {
         width: calc(100% / 1);
     }
+    #contact-submit[type="submit"] {
+        display: block;
+        cursor: pointer;
+        width: 30%;
+        border: none;
+        background:#FFFFFF;
+        color:#E08747;
+        padding: 10px;
+        margin-top: 2%;
+        margin-left: 35%;
+      
+    }
+      .text-box, .text-box-2{
+        margin-left: 0px;
+        width: 400px;
+        padding-left: 30px;
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+    .text-box h2, .text-box-2 h2{
+        font-size: 2.4rem;
+      
+    }
+    .orange-box {
+        transform: translate(0%, -60%);
+    }
+   
+
 
 }
 
