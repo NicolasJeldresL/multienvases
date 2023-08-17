@@ -1461,6 +1461,7 @@ iframe {
       
     }
     .orange-box {
+        height: 50vh;
         transform: translate(0%, -40%);
           
     }
@@ -1485,7 +1486,7 @@ iframe {
         font-size: 2.6rem;
     }
     .orange-box {
-        transform: translate(0%, -20%);
+        transform: translate(0%, -30%);
         width: 3% ;
     }
     .orange-box-dos {
