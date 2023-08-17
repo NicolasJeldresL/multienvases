@@ -1325,7 +1325,7 @@ iframe {
     .orange-box {
         height: 40vh;
         width: 4%;
-        transform: translate(0%, -60%);
+        transform: translate(0%, -61%);
         left: 0;
         position: absolute;
     }
@@ -1486,7 +1486,7 @@ iframe {
         font-size: 2.6rem;
     }
     .orange-box {
-        transform: translate(0%, -30%);
+        transform: translate(0%, -25%);
         width: 3% ;
     }
     .orange-box-dos {
