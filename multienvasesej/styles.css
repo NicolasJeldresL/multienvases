@@ -760,10 +760,11 @@ nav {
 }
 
 .wrapper .carousel {
+    padding-top: 50px;
     height: 350px;
     font-size: 0px;
     cursor: pointer;
-    overflow: hidden;
+    overflow: hidden; 
     white-space: nowrap;
 }
 
@@ -796,6 +797,9 @@ nav {
     background-color: #f1f1f1;
 }
 
+.distancia2{
+    height: 150px;
+}
 
 .distancia{
     height: 200px;
