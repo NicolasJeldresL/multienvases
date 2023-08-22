@@ -72,7 +72,7 @@ a{text-decoration: none;}
 header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)), url(media/binventijpg.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)), url(media/binshero.jpg);
     background-position: top;
     background-size: cover;
     position: relative;
@@ -1447,6 +1447,11 @@ iframe {
         margin-left: 0;
         
     }
+    
+   .footer {
+     height: 400px;
+   }
+    
 }
 
 @media (max-width: 550px) {
@@ -1516,7 +1521,9 @@ iframe {
         transform: translate(-50%, -50%); 
         -webkit-transform: translate(0, 0);  
     }
-   
+    .footer {
+        height: 450px;
+    }
 
 
 }
@@ -1535,7 +1542,9 @@ iframe {
     .caracteristicas h2 {
         font-size: 2.2rem;
     }
- 
+    .footer {
+        height: 500px;
+    }
 }
 
 
