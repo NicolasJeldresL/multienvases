@@ -1154,7 +1154,8 @@ iframe {
 @media (max-width: 1240px) {
     .titulo-prod {
         word-wrap: break-word;
-        margin-bottom: -120px;
+        margin-bottom: -180px;
+       
     }
     .orange-box {
         height: 75vh;
