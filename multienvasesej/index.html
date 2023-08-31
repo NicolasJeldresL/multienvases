@@ -367,26 +367,31 @@
             <div class="orden-formulario">
                 <div class="formulario">
                     
-                    <form id="contact" action="" method="post">
+                    <form id="contact" action="https://formsubmit.co/na@multienvases.cl" method="POST">
                         <h2>CONTACTO</h2>
                         <fieldset>
-                            <input placeholder="NOMBRE" type="text" tabindex="1" required>
+                            <input placeholder="NOMBRE" type="text" tabindex="1" name="name" required>
                         </fieldset>
                         <fieldset>
-                            <input placeholder="EMAIL" type="text" tabindex="2" required>
+                            <input placeholder="EMAIL" type="text" tabindex="2" name="email" required>
                         </fieldset>
                         <fieldset>
-                            <input placeholder="ASUNTO" type="text" tabindex="3" required>
+                            <input placeholder="ASUNTO" type="text" tabindex="3" name="subject" required>
                         </fieldset>
                         <fieldset>
-                            <input placeholder="MENSAJE" type="text" tabindex="4" required>
+                            <input placeholder="MENSAJE" type="text" tabindex="4" name="comments" required>
                         </fieldset>
+
+                        <input type="submit" value="ENVIAR" id="contact-submit">
+
+                        <input type="hidden" name="_next" value="https://www.multienvases.cl">
+                        <input type="hidden" name="captcha" value="false">
                     </form>
                     
                 </div>
-                <div id="boton-contact">
+                <!-- <div id="boton-contact">
                     <button name="Submit" type="submit" id="contact-submit" data-submit="...Sending"><h3>ENVIAR</h3></button>
-                </div></div>
+                </div> --></div>
             </div>
         </div>
 
